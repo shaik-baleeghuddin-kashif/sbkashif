@@ -396,12 +396,10 @@ const Contact: React.FC = () => {
       </div>
 
       <div className="hidden md:flex md:w-[50%] md:h-full md:justify-center md:items-center">
-        <div className="relative p-4 max-w-[80%] bg-white bg-opacity-10 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
-          <img
-            src="/contact.jpg"
-            alt="Contact"
-            className="max-w-full h-auto rounded-lg transition-transform duration-300 transform hover:scale-105"
-          />
+        <div className="relative p-4 max-w-[80%] w-[80%] h-[60%] bg-white bg-opacity-10 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
+          <div
+          className="max-w-full h-full w-full rounded-lg transition-transform duration-300 transform hover:scale-105 bg-[url('/contact.jpg')] bg-cover bg-center bg-no-repeat"
+          ></div>
         </div>
       </div>
     </div>
