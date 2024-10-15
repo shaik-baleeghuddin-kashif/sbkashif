@@ -2,7 +2,7 @@
 const Education = () => {
   return (
     <div
-    className="flex flex-col md:flex-row w-full h-full bg-white bg-opacity-10 backdrop-blur-lg shadow-lg border-white/30 border-2 rounded-lg p-4 md:p-8 text-sm md:text-base"
+    className="flex flex-col w-full h-full bg-white bg-opacity-10 backdrop-blur-lg shadow-lg border-white/30 border-2 rounded-lg p-4 md:p-8 text-sm md:text-base gap-3"
     >
       <div className="flex flex-col md:flex-row w-full h-fit md:p-2 gap-3">
         {/* <!-- Left Section --> */}
@@ -31,6 +31,9 @@ const Education = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula est at sapien euismod, eget viverra lacus tristique.
           </p>
         </div>
+      </div>
+      <div className="my-2">
+        <hr className="border-t border-gray-300" />
       </div>
     </div>
   )
